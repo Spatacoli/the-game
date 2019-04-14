@@ -1,0 +1,22 @@
+{
+  "name": "the-game",
+  "version": "1.0.0",
+  "description": "Game we are building on Twitch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spatacoli/the-game.git"
+  },
+  "author": "Todd Spatafore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spatacoli/the-game/issues"
+  },
+  "homepage": "https://github.com/Spatacoli/the-game#readme",
+  "dependencies": {
+    "phaser": "^3.16.2"
+  }
+}
