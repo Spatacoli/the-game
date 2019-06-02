@@ -4,7 +4,8 @@
   "description": "Game we are building on Twitch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8085"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,13 @@
     "url": "https://github.com/Spatacoli/the-game/issues"
   },
   "homepage": "https://github.com/Spatacoli/the-game#readme",
-  "dependencies": {
-    "phaser": "^3.16.2"
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.17.0",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   }
 }
