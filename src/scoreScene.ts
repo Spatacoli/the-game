@@ -15,7 +15,7 @@ export class ScoreScene extends Phaser.Scene {
 
     create(): void {
         const resultText: string = this.win ? "You win!" : "You lose!";
-        this.result = this.add.text(200, 250, resultText, {
+        this.result = this.add.text(300, 250, resultText, {
             font: "48px Arial Bold",
             fill: "#FBFBAC"
         });
